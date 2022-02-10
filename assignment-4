@@ -1,0 +1,15 @@
+sno=int(input('enter rollno of student:'))
+sname=input('enter name of student:')
+s1=int(input('enter marks of maths:'))
+s2=int(input('enter marks of physics:'))
+s3=int(input('enter marks of cs:'))
+s4=int(input('enter marks of english:'))
+s5=int(input('enter marks of telugu:'))
+s6=int(input('enter marks of skill course:'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=22:
+    print('pass')
+else:
+    print('fail')
+print('result is declared')
+    
+
